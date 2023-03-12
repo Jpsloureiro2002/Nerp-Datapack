@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Are you Playng Tank?",
+            "color": "dark green",
+            "bold": false
+        },
+        "description": {
+            "text": "Something Usefull for turtles",
+            "color": "white",
+            "bold": false
+        },
+        "icon": {
+            "item": "minecraft:scute"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+	"criteria": {
+		"requirement":{
+		"trigger": "minecraft:recipe_unlocked",
+		"conditions":{
+			"recipe": "nerps:turtle_shield"
+		}
+	}
+	},
+	"rewards": {
+		"experience": 50
+	},
+	"parent": "nerps:root"
+  }

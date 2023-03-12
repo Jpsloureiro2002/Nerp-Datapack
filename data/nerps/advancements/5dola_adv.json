@@ -1,0 +1,13 @@
+{
+	"criteria":{
+		"unlockmoney":{
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions":{
+				"recipe": "nerps:5dola"
+			}
+		}
+	},
+	"rewards": {
+		"function": "nerps:give5dola"
+	}
+}

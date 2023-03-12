@@ -1,0 +1,4 @@
+recipe take @s nerps:netherite_battle_axe
+advancement revoke @s only nerps:crafts/netherite_battle_axe
+give @p netherite_axe{CustomModelData:4,Tags:["netheritaxebattle"],AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:20,Slot:mainhand,Name:"generic.attack_damage",UUID:[I;-12302,7972,1925,-15944]},{AttributeName:"generic.attack_knockback",Amount:0.7,Slot:mainhand,Name:"generic.attack_knockback",UUID:[I;-12302,8072,1925,-16144]},{AttributeName:"generic.movement_speed",Amount:-0.1,Slot:mainhand,Operation:1,Name:"generic.movement_speed",UUID:[I;-12302,8172,1925,-16344]},{AttributeName:"generic.attack_speed",Amount:-0.84,Slot:mainhand,Operation:1,Name:"generic.attack_speed",UUID:[I;-12302,8272,1925,-16544]}],display:{Name:'[{"text":"Netherite Battle Axe","italic":true,"color":"gold"}]',Lore:['[{"text":"Nothing can stop you","italic":false}]']}} 1
+clear @s knowledge_book

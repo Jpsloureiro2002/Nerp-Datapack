@@ -1,0 +1,30 @@
+{
+	"display": {
+	  "icon": {
+		"item": "minecraft:sunflower",
+		"nbt": "{CustomModelData:10}"
+	  },
+	  
+	  "title": {
+		"text": "One dola",
+		"color": "green",
+		"bold": false
+	},
+	"description": {
+		"text": "Combine 1 Emerald Block with 1 diamond",
+		"color": "#EC008C",
+		"bold": false,
+		"italic": false
+	},
+	  "frame": "task",
+	  "show_toast": true,
+	  "announce_to_chat": true,
+	  "hidden": false
+	},
+	"criteria": {
+	  "requirement": {
+		"trigger": "minecraft:tick"
+	  }
+	},
+	"parent": "nerps:root"
+  }

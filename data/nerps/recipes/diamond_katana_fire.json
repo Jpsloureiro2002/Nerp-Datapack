@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "  #",
+        "H# ",
+        "/H "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:diamond"
+        },
+        "H": {
+            "item": "minecraft:heavy_weighted_pressure_plate"
+        },
+        "/": {
+            "item": "minecraft:blaze_rod"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    },
+    "group": "wapond"
+}

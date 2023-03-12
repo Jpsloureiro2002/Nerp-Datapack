@@ -1,0 +1,13 @@
+{
+	"criteria":{
+		"unlockmoney":{
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions":{
+				"recipe": "nerps:spawn_eggs/king_slime"
+			}
+		}
+	},
+	"rewards": {
+		"function": "nerps:give/spawn_egg/king_slime"
+	}
+}

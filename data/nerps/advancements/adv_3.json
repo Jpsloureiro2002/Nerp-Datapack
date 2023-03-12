@@ -1,0 +1,34 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:trident"
+      },
+      "title": {
+        "text": "A hot Trident",
+        "color": "red",
+        "bold": false
+      },
+      "description": {
+        "text": "You know that the trident alone is kinda bad",
+        "color": "green",
+        "bold": false
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "nerps:root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "nerps:nethertident"
+        }
+      }
+    },
+    "rewards": {
+      "experience": 100
+    }
+  }
+  

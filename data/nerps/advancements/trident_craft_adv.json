@@ -1,0 +1,13 @@
+{
+	"criteria":{
+		"unlockmoney":{
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions":{
+				"recipe": "nerps:nethertident"
+			}
+		}
+	},
+	"rewards": {
+		"function": "nerps:give_nethertrident"
+	}
+}

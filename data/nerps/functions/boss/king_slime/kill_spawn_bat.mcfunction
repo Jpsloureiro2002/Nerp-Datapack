@@ -1,0 +1,1 @@
+kill @e[tag=Boos_Slime_spawn]

@@ -1,0 +1,1 @@
+give @p diamond_boots{Tags:["slime_boots"],display:{Name:'[{"text":"Slime Boots","italic":false,"color":"green"}]',Lore:['[{"text":"Negate all fall damage","italic":false}]','[{"text":"and give\'s you jump boost","italic":false}]']},Enchantments:[{id:feather_falling,lvl:100}],HideFlags:1} 1

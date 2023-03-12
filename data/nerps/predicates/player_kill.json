@@ -1,0 +1,8 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "killer",
+	"predicate": {
+	  "type": "minecraft:player"
+	}
+  }
+  

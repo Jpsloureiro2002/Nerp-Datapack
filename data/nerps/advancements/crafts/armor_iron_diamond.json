@@ -1,0 +1,13 @@
+{
+	"criteria":{
+		"unlockmoney":{
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions":{
+				"recipe": "nerps:iron_chestplate_mod3diamond32glowstone"
+			}
+		}
+	},
+	"rewards": {
+		"function": "nerps:give/armor/iron_diamond_armor"
+	}
+}

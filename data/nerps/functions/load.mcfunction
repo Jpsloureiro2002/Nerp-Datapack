@@ -1,0 +1,2 @@
+scoreboard objectives add random dummy "Random"
+tellraw @a ["\n############################\n",{"text":"Nerp Reloded","color":"green"},{"text":"\n"},{"text":"> ","color":"gold"},{"text":"[Credits]","color":"gold","clickEvent":{"action":"run_command","value":"/function nerps:creators_tellraw"},"hoverEvent":{"action":"show_text","contents":"View Credits"}},{"text":"\n"},{"text":"> [Crafts]","strikethrough":true,"color":"#339966"},{"text":"\n","strikethrough":true},{"text":"> [Discord]","strikethrough":true,"color":"dark_aqua"},"\n############################\n"]

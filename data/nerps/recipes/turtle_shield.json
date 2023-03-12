@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#S#",
+        "SIS",
+        "BJB"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:golden_apple"
+        },
+        "S": {
+            "item": "minecraft:scute"
+        },
+        "I": {
+            "item": "minecraft:shield"
+        },
+        "B": {
+            "item": "minecraft:blaze_powder"
+        },
+        "J": {
+            "item": "minecraft:iron_bars"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    },
+    "group": "shield"
+}

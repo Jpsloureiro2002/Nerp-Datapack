@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Dinamic Lights?",
+            "color": "gold",
+            "bold": false
+        },
+        "description": {
+            "text": "A miner Hat",
+            "color": "white",
+            "bold": false
+        },
+        "icon": {
+            "item": "minecraft:lantern"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+	"criteria": {
+		"requirement":{
+		"trigger": "minecraft:recipe_unlocked",
+		"conditions":{
+			"recipe": "nerps:miners_hat"
+		}
+	}
+	},
+	"rewards": {
+		"experience": 50
+	},
+	"parent": "nerps:root"
+  }

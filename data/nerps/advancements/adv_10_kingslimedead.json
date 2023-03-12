@@ -1,0 +1,37 @@
+{
+    "display": {
+        "title": {
+            "text": "Slime King",
+            "color": "blue",
+            "bold": false
+        },
+        "description": {
+            "text": "Defeat the terra.. i mean minecraft boss",
+            "color": "gold",
+            "bold": false
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Id:[I;-1435708174,832652395,-1086458584,-459396],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzBjNjA2ZTdmMjFhOTY3NTc5OWJmNGQzZDg1MDVlYTFkMzhjYjc2OTlkY2I5MTQ0MTFiODczZDI5YTdmODYzOSJ9fX0=\"}]}}}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+	"criteria": {
+        "kill_slime":{
+            "trigger": "minecraft:player_killed_entity",
+            "conditions":{
+                "entity":{
+                    "type":"minecraft:slime",
+                    "nbt": "{Tags:[Boos_Slime]}"
+                }
+            }
+        }
+    },
+	"rewards": {
+		"experience": 200
+	},
+	"parent": "nerps:adv_root_boss"
+  }

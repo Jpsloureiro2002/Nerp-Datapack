@@ -1,0 +1,4 @@
+recipe take @s nerps:iron_katana_normal
+advancement revoke @s only nerps:crafts/kantana_normal_iron_adv
+give @p iron_sword{CustomModelData:1,Tags:["katana_iron_norm"],AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:4,Slot:mainhand,Name:"generic.attack_damage",UUID:[I;-12301,47955,16016,-95910]},{AttributeName:"generic.attack_speed",Amount:-0.2,Slot:mainhand,Operation:1,Name:"generic.attack_speed",UUID:[I;-12301,48055,16016,-96110]},{AttributeName:"generic.movement_speed",Amount:0.1,Slot:mainhand,Operation:1,Name:"generic.movement_speed",UUID:[I;-12301,48155,16016,-96310]}],display:{Name:'[{"text":"Katana","italic":false}]',Lore:['[{"text":"Sharp and Fast","italic":false}]']}} 1
+clear @s knowledge_book

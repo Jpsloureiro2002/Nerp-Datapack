@@ -1,0 +1,4 @@
+recipe take @s nerps:diamond_katana_normal
+advancement revoke @s only nerps:crafts/kantana_normal_diamond
+give @p diamond_sword{CustomModelData:2,Tags:["katana_iron_norm"],AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:5.4,Slot:mainhand,Name:"generic.attack_damage",UUID:[I;-12301,59055,16016,-118110]},{AttributeName:"generic.attack_speed",Amount:-0.15,Slot:mainhand,Operation:1,Name:"generic.attack_speed",UUID:[I;-12301,59155,16016,-118310]},{AttributeName:"generic.movement_speed",Amount:0.2,Slot:mainhand,Operation:1,Name:"generic.movement_speed",UUID:[I;-12301,59255,16016,-118510]}],display:{Name:'[{"text":"Diamond Katana","italic":false,"color":"dark_aqua"}]',Lore:['[{"text":"Shiny and more sharp","italic":false}]']}} 1
+clear @s knowledge_book

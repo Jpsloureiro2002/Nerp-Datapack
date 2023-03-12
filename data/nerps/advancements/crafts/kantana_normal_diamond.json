@@ -1,0 +1,13 @@
+{
+	"criteria":{
+		"unlockmoney":{
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions":{
+				"recipe": "nerps:diamond_katana_normal"
+			}
+		}
+	},
+	"rewards": {
+		"function": "nerps:give/waponds/katana_diamond_normal"
+	}
+}

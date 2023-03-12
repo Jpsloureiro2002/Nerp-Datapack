@@ -1,0 +1,4 @@
+recipe take @s nerps:iron_chestplate_mod3diamond32glowstone
+advancement revoke @s only nerps:crafts/armor_iron_diamond
+give @p iron_chestplate{AttributeModifiers:[{AttributeName:"generic.armor",Amount:6.5,Slot:chest,Name:"generic.armor",UUID:[I;-12302,12136,23220,-24272]},{AttributeName:"generic.armor_toughness",Amount:1,Slot:chest,Name:"generic.armor_toughness",UUID:[I;-12302,12236,23220,-24472]}],display:{Name:'[{"text":"Glowing ","italic":false,"color":"yellow"},{"text":"DiaIron ","color":"aqua"},{"text":"Chestplate"}]',Lore:['[{"text":"Shiny and Strong","italic":false}]']}} 1
+clear @s knowledge_book

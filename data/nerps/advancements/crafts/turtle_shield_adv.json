@@ -1,0 +1,13 @@
+{
+	"criteria":{
+		"unlockmoney":{
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions":{
+				"recipe": "nerps:turtle_shield"
+			}
+		}
+	},
+	"rewards": {
+		"function": "nerps:give/waponds/turtle_shield"
+	}
+}

@@ -1,0 +1,1 @@
+tellraw @s ["\n\n\n\n############################\n",{"text":"Made by:","color":"gold"},{"text":" "},{"text":"Ravioly","color":"dark_green","hoverEvent":{"action":"show_text","contents":"Jpsloureiro"}},{"text":"\n"},{"text":"And Game Tester and Helper:","color":"gold"},{"text":" Ssymser","color":"dark_red"},"\n############################"]

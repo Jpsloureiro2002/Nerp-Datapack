@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Nerp Datapack",
+            "color": "aqua",
+            "bold": false
+        },
+        "description": {
+            "text": "Every Thing you Should Know",
+            "color": "green",
+            "bold": false,
+            "italic": false
+        },
+        "icon": {
+            "item": "minecraft:totem_of_undying"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/netherite_block.png"
+    },
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

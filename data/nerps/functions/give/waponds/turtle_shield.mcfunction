@@ -1,0 +1,4 @@
+recipe take @s nerps:turtle_shield
+advancement revoke @s only nerps:crafts/turtle_shield_adv
+give @p shield{Tags:["shield_turtle"],AttributeModifiers:[{AttributeName:"generic.max_health",Amount:0.30,Slot:mainhand,Operation:1,Name:"generic.max_health",UUID:[I;-12302,37572,1925,-75144]},{AttributeName:"generic.movement_speed",Amount:-0.40,Slot:mainhand,Operation:1,Name:"generic.movement_speed",UUID:[I;-12302,37672,1925,-75344]},{AttributeName:"generic.armor",Amount:10,Slot:mainhand,Name:"generic.armor",UUID:[I;-12302,37772,1925,-75544]},{AttributeName:"generic.armor_toughness",Amount:10,Slot:mainhand,Name:"generic.armor_toughness",UUID:[I;-12302,37872,1925,-75744]}],display:{Name:'[{"text":"Turtle Shield","italic":false,"color":"dark_green"}]',Lore:['[{"text":"You are litraly a Tank but you must only carry in the main hand.","italic":false}]']},HideFlags:2} 1
+clear @s knowledge_book

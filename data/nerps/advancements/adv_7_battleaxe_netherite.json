@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "What they Fear",
+            "color": "#AA0000",
+            "bold": false
+        },
+        "description": {
+            "text": "Make a Legendary wapond",
+            "color": "gold",
+            "bold": false
+        },
+        "icon": {
+            "item": "minecraft:zombie_head"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+	"criteria": {
+		"requirement":{
+		"trigger": "minecraft:recipe_unlocked",
+		"conditions":{
+			"recipe": "nerps:netherite_battle_axe"
+		}
+	}
+	},
+	"rewards": {
+		"experience": 100
+	},
+	"parent": "nerps:root"
+  }

@@ -1,0 +1,13 @@
+{
+	"criteria":{
+		"unlockmoney":{
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions":{
+				"recipe": "nerps:miners_hat"
+			}
+		}
+	},
+	"rewards": {
+		"function": "nerps:give/armor/miners_hat"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"criteria":{
+		"unlockmoney":{
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions":{
+				"recipe": "nerps:netherite_battle_axe"
+			}
+		}
+	},
+	"rewards": {
+		"function": "nerps:give/waponds/netherite_battle_axe"
+	}
+}
