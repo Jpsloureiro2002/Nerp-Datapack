@@ -5,7 +5,7 @@
   To use the dynamic light feature in this datapack, you'll need to use Dynamic Lights v1.4 with some modifications. However, I don't have permission to share the modified version or publish it publicly. If you're interested, I've included the changes I made at the end of the README file.
   
   In addition, you'll need the texture pack for this datapack to work properly. The texture pack can be found in the release [link](https://github.com/Jpsloureiro2002/Nerp-Datapack/releases/tag/Alpha) . Be sure to download and install it before using the datapack.
-# Costume Crafting
+# Custom Crafting
 
 - [Weapons](https://github.com/Jpsloureiro2002/Nerp-Datapack/edit/main/README.md#weapons)
 - [Utility](https://github.com/Jpsloureiro2002/Nerp-Datapack/edit/main/README.md#utility)
