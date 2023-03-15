@@ -37,6 +37,10 @@
 ## Boss Spawn Egg
 ### Slime King(Dif: Hard)
 ![notfound](https://raw.githubusercontent.com/Jpsloureiro2002/Nerp-Datapack/main/crafts/king-slime.png)
+### Lost Vindicator(Dif: Normal)
+![notfound](https://raw.githubusercontent.com/Jpsloureiro2002/Nerp-Datapack/main/crafts/lost_vindicator.png)
+### Boss Trader
+![notfound](https://raw.githubusercontent.com/Jpsloureiro2002/Nerp-Datapack/main/crafts/boss_trader.png)
 
 # UpComing
 - More bosses

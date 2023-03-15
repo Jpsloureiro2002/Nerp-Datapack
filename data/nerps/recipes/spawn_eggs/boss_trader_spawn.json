@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#E#",
+        "PLP",
+        "DED"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:soul_sand"
+        },
+        "E": {
+            "item": "minecraft:emerald"
+        },
+        "P": {
+            "item": "minecraft:phantom_membrane"
+        },
+        "L": {
+            "item": "minecraft:egg"
+        },
+        "D": {
+            "item": "minecraft:dragon_breath"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

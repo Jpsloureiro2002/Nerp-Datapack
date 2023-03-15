@@ -10,6 +10,8 @@ execute if entity @e[tag=Boos_Slime,limit=1] run function nerps:boss/king_slime/
 execute if entity @e[tag=Boos_Slime_spawn,limit=1] run function nerps:boss/king_slime/kill_spawn_bat
 execute unless entity @e[tag=Boos_Slime,limit=1] run function nerps:boss/king_slime/dispawn_king_slime
 execute unless entity @e[tag=Boos_Slime,limit=1] run function nerps:boss/king_slime/effect
+#nerps_Villeger_boss
+function nerps:boss/lost_vindicator/setup_and_check
 #check item
 #ring slot 15,16,17
 function nerps:effects/rings

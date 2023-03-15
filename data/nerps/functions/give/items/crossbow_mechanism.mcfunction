@@ -1,0 +1,1 @@
+give @p piglin_banner_pattern{CustomModelData:100,display:{Name:'[{"text":"CrossBow Mechanism","italic":false,"color":"green"}]',Lore:['[{"text":"Aply to a crossbow","italic":false}]','[{"text":"with the BossTrader","italic":false}]']}} 1

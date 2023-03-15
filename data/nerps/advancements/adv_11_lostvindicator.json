@@ -1,0 +1,38 @@
+{
+    "display": {
+        "title": {
+            "text": "Lost Vindicator",
+            "color": "blue",
+            "bold": false
+        },
+        "description": {
+            "text": "That one friend...",
+            "color": "gold",
+            "bold": false
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Id:[I;1053432760,-1750514720,-2123590235,-47542450],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGY2ZmI4OWQxYzYzMWJkN2U3OWZlMTg1YmExYTY3MDU0MjVmNWMzMWE1ZmY2MjY1MjFlMzk1ZDRhNmY3ZTIifX19\"}]}}}"
+
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+	"criteria": {
+        "kill_slime":{
+            "trigger": "minecraft:player_killed_entity",
+            "conditions":{
+                "entity":{
+                    "type":"minecraft:vindicator",
+                    "nbt": "{Tags:[Boss_Vindicator]}"
+                }
+            }
+        }
+    },
+	"rewards": {
+        "function": "nerps:boss/lost_vindicator/dead"
+	},
+	"parent": "nerps:adv_root_boss"
+  }

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "EIE",
+        "SBS"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:diamond"
+        },
+        "E": {
+            "item": "minecraft:emerald"
+        },
+        "I": {
+            "item": "minecraft:iron_axe"
+        },
+        "S": {
+            "item": "minecraft:soul_torch"
+        },
+        "B": {
+            "item": "minecraft:soul_soil"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

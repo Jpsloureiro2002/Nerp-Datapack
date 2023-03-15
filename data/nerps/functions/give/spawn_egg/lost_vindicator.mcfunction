@@ -1,0 +1,4 @@
+recipe take @s nerps:spawn_eggs/king_slime
+advancement revoke @s only nerps:crafts/king-slime_spawn_egg
+give @p enderman_spawn_egg{EntityTag:{id:bat,Tags:["Boss_Vindicator_Spawn"]},display:{Name:'[{"text":"Lost Vindicator","italic":false,"color":"red"}]',Lore:['[{"text":"This poor villeger sufred discrimination","italic":false}]','[{"text":"by the villegers,because all he wanted was","italic":false}]','[{"text":"to play with magic with her friend witch.","italic":false}]','[{"text":"Then he leave the village after the master of the village","italic":false}]','[{"text":"killed his friend, years later he summon the wither","italic":false}]','[{"text":"and ask him to lend some of his the power.","italic":false}]','[{"text":"After that the wither tranformed him in the best sorcer of all time","italic":false}]','[{"text":"but at what cost...","italic":false}]']}} 1
+clear @s knowledge_book
